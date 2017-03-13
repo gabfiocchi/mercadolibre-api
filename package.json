@@ -1,0 +1,27 @@
+{
+  "name": "api-ml",
+  "version": "1.0.0",
+  "description": "api Mercado Libre para test práctico",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/nodemon/bin/nodemon.js ./server.js"
+  },
+  "keywords": [
+    "mercado-libre",
+    "api",
+    "node",
+    "express",
+    "test",
+    "frontend"
+  ],
+  "author": "Gabriel Fiocchi",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "https": "^1.0.0",
+    "nodemon": "^1.11.0"
+  }
+}
